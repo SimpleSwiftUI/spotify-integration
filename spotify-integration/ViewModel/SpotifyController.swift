@@ -10,16 +10,9 @@ import Combine
 
 // Credit: https://github.com/tillhainbach/SpotifyQuickStart/blob/main/SpotifyQuickStart/SpotifyController.swift
 
-// todo
-//
-// info.plist
-// spotifyios package/https://github.com/spotify/ios-sdk.git
-// spotify dev dashboard
-//
-
 class SpotifyController: NSObject, ObservableObject, SPTAppRemotePlayerStateDelegate, SPTAppRemoteDelegate {
-    let spotifyClientID = ""    // todo
-    let spotifyRedirectURL = URL(string: "spotify-integration/spotify-login-callback")!
+    let spotifyClientID = "abc123abc123abc123abc123abc12345"
+    let spotifyRedirectURL = URL(string: "spotify-integration://spotify-login-callback")!
     var accessToken: String? = nil
     
     private var executingPause = false
