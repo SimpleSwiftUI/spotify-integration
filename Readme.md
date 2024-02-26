@@ -3,7 +3,10 @@
 # Overview
 An iOS application built with SwiftUI for iOS 16.4+ that integrates Spotify to allow users to connect to the Spotify app installed on their device, authorize, play, and pause a track directly from within the app.
 
+##### Screen capture (animated gif)
 ![spotify-integration animated gif](screen-capture/spotify-integration.gif)
+
+##### Screen capture (video with audio)
 ![spotify-integration video with audio](screen-capture/spotify-integration.mp4)
 
 ## Features
